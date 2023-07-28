@@ -9,9 +9,9 @@ describe("Launches API", () =>{
         await loadPlanetsData();
     });
 
-    // afterAll(async () => {
-    //     await mongoDisconnect();
-    // });
+    afterAll(async () => {
+        await mongoDisconnect();
+    });
 
 
 
